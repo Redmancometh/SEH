@@ -26,33 +26,30 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sandbox.Game">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\SpaceEngineers\Bin64\Sandbox.Game.dll</HintPath>
-    </Reference>
-    <Reference Include="Sandbox.Graphics">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\SpaceEngineers\Bin64\Sandbox.Graphics.dll</HintPath>
-    </Reference>
-    <Reference Include="System" />
     <Reference Include="Mono.Cecil">
-      <HintPath>..\..\..\..\Desktop\Cecil\Mono.Cecil.dll</HintPath>
+      <HintPath>cecil\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Sandbox.Common">
-      <HintPath>..\..\..\..\..\..\Program Files %28x86%29\Steam\SteamApps\common\SpaceEngineers\Bin64\Sandbox.Common.dll</HintPath>
+      <HintPath>bin\Sandbox.Common.dll</HintPath>
     </Reference>
-    <Reference Include="VRage.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.Common.dll</HintPath>
+    <Reference Include="Sandbox.Game">
+      <HintPath>bin\Sandbox.Game.dll</HintPath>
     </Reference>
-    <Reference Include="VRage.Library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.Library.dll</HintPath>
+    <Reference Include="Sandbox.Graphics">
+      <HintPath>bin\Sandbox.Graphics.dll</HintPath>
     </Reference>
-    <Reference Include="VRage.Math, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.Math.dll</HintPath>
+    <Reference Include="System" />
+    <Reference Include="VRage.Common">
+      <HintPath>bin\VRage.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Library">
+      <HintPath>bin\VRage.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Math">
+      <HintPath>bin\VRage.Math.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Render">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.Render.dll</HintPath>
+      <HintPath>bin\VRage.Render.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
